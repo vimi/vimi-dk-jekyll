@@ -1,3 +1,8 @@
+---
+title: Bliv Medlem
+author: lsolesen
+---
+
 VIMI holder i øjeblikket pause med aktiviteter. Vi ved ikke hvornår vi evt. kommer i gang igen.
 
 Hvis du gerne vil være medlem, dukker du bare op til en af vores arrangementer. Det koster 200 kroner halvårligt at være medlem, men så kan du også deltage i alle de aktiviteter vi tilbyder.
