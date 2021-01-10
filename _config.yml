@@ -20,7 +20,7 @@ description              : "VEJLE IDRÆTSSKOLERS MULTI IDRÆTSFORENING"
 subtitle                 : "Idræt med valgfrihed"
 url                      : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "vih/historie" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "vimi/vimi-dk-jekyll" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 #logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 # masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -242,28 +242,6 @@ compress_html:
     envs: development
 
 
-# Collections
-collections:
-  places:
-    output: true
-    permalink: /steder/:path/
-  timelines:
-    output: true
-    permalink: /tidslinje/:path/
-  songs:
-    output: true
-    permalink: /:collection/:path/
-  faq:
-    output: true
-    permalink: /:collection/:path/
-  persons:
-    output: true
-    permalink: /:collection/:path/
-  yearbooks:
-    output: true
-    permalink: /aarsskrift/:path/
-
-
 # Defaults
 defaults:
   # _posts
@@ -279,100 +257,3 @@ defaults:
       comments: true
       share: true
       related: true
-# _places
-  - scope:
-      path: ""
-      type: places
-    values:
-      layout: collection-single
-      author_profile: true
-      listen_time: false
-      video_time: false
-      read_time: false
-      comments: true
-      share: true
-      related: true
-# _persons
-  - scope:
-      path: ""
-      type: persons
-    values:
-      layout: collection-single
-      author_profile: false
-      read_time: false
-      comments: true
-      share: true
-      related: true
-      toc: true
-# _timelines
-  - scope:
-      path: ""
-      type: timelines
-    values:
-      layout: collection-single
-      author_profile: true
-      listen_time: false
-      video_time: false
-      read_time: false
-      comments: true
-      share: true
-      related: true
-# _songs
-  - scope:
-      path: ""
-      type: songs
-    values:
-      layout: collection-single
-      author_profile: true
-      listen_time: false
-      video_time: false
-      read_time: false
-      comments: true
-      share: true
-      related: true
-# _faq
-  - scope:
-      path: ""
-      type: faq
-    values:
-      layout: collection-single
-      author_profile: true
-      video_time: false
-      listen_time: false
-      read_time: true
-      comments: true
-      share: true
-      related: true
-# _yearbooks
-  - scope:
-      path: ""
-      type: yearbooks
-    values:
-      layout: collection-single
-      author_profile: false
-      read_time: true
-      listen_time: false
-      video_time: false
-      comments: true
-      share: true
-      related: true
-      toc: true
-
-
-# Podcast
-podcast_language: "da-DK"
-podcast_site_url: http://historie.vih.dk
-podcast_url: http://historie.vih.dk/podcast
-podcast_album_art: /assets/podcasts/cover-stemmer.png
-podcast_title: Vejle Idrætshøjskoles Stemmer
-podcast_owner: Vejle Idrætshøjskole
-podcast_email: info@vih.dk
-podcast_category: Vejle Idrætshøjskole
-podcast_subcategory:
- - Historie
- - Tankegods
-podcast_explicit: "no"
-podcast_author: Lars Olesen
-podcast_description: Stemmer fra Vejle Idrætshøjskoles historie kommer til orde.
-podcast_summary: Lars Olesen, viceforstander, lader stemmerne fra Vejle Idrætshøjskole komme til orde. Vi samler på historier, viden, gode oplevelser, diskussioner fra før og nu i højskolens historie.
-podcast_subtitle: Stemmer fra Vejle Idrætshøjskoles historie.  Vært er Lars Olesen.
